@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.github.caffetteria</groupId>
-	<artifactId>test-pubblicazione-2</artifactId>
+	<artifactId>test-pubblicazione-3</artifactId>
 
-	<name>test-pubblicazione-2</name>
+	<name>test-pubblicazione-3</name>
 	<description>Test pubblicazione sonatype 2</description>
 	<version>${revision}</version>
 
@@ -50,15 +50,15 @@
 	<url>https://github.com/caffetteria</url>
 	
 	<scm>
-		<connection>scm:git:git://github.com/caffetteria/test-pubblicazione-2.git</connection>
-		<developerConnection>scm:git:ssh://github.com/caffetteria/test-pubblicazione-2.git</developerConnection>
-		<url>https://github.com/caffetteria/test-pubblicazione-2.git</url>
+		<connection>scm:git:git://github.com/caffetteria/test-pubblicazione-3.git</connection>
+		<developerConnection>scm:git:ssh://github.com/caffetteria/test-pubblicazione-3.git</developerConnection>
+		<url>https://github.com/caffetteria/test-pubblicazione-3.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/caffetteria/test-pubblicazione-2/issues</url>
+		<url>https://github.com/caffetteria/test-pubblicazione-3/issues</url>
 	</issueManagement>
 
 	<!--
