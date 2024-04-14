@@ -418,20 +418,17 @@
 					</plugin>
 
 					<!--
-						https://central.sonatype.org/publish/publish-guide/#releasing-to-central
-						https://central.sonatype.org/publish/publish-portal-maven/
+						https://central.sonatype.org/publish/publish-maven/#distribution-management-and-authentication
 					-->
 					<plugin>
-						<groupId>org.sonatype.central</groupId>
-						<artifactId>central-publishing-maven-plugin</artifactId>
-						<version>${central-version}</version>
+						<groupId>org.sonatype.plugins</groupId>
+						<artifactId>nexus-staging-maven-plugin</artifactId>
+						<version>1.6.7</version>
 						<extensions>true</extensions>
 						<configuration>
-							<publishingServerId>central</publishingServerId>
-							<tokenAuth>true</tokenAuth>
+							<serverId>ossrh</serverId>
+							<nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
 							<autoReleaseAfterClose>true</autoReleaseAfterClose>
-							<autoPublish>true</autoPublish>
-							<waitUntil>published</waitUntil>
 						</configuration>
 					</plugin>
 
