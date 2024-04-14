@@ -7,7 +7,7 @@
 
 	<name>test-pubblicazione-2</name>
 	<description>Test pubblicazione sonatype 2</description>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 
 	<licenses>
 		<license>
@@ -425,6 +425,7 @@
 						<configuration>
 							<publishingServerId>central</publishingServerId>
 							<tokenAuth>true</tokenAuth>
+							<autoReleaseAfterClose>true</autoReleaseAfterClose>
 						</configuration>
 					</plugin>
 
